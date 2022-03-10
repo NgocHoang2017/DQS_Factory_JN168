@@ -1,0 +1,14 @@
+- Release note Zigbee Factory Tool v2.0 build 1.0
+# Fix GPIO USB CP210x 
+# Merge Product String with USB Zigbee Flash firmware
+# Show log file txt
+
+- How to set up programmer? 
+1. Set up environment and package development of Zigbee (JN-SW-4170)
+2. Copy folder Log, LibDll,cp2102n_a02_gqfn20.configuration.1.1,cp210xsmt.exe,Huong dan to C:\NXP\ProductionFlashProgrammer\... 
+3. Open DQS_Factory_Tool_V2.0.exe and Run
+
+- Command send
+# "C:\NXP\ProductionFlashProgrammer\JN51xxProgrammer.exe -V 1 -P " + baudRate + " -f " + fileName"
+
+# "C:\NXP\ProductionFlashProgrammer\JN51xxProgrammer.exe -Y --deviceconfig=CRP_LEVEL1";
